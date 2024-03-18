@@ -167,3 +167,58 @@ default:printf("Wrong Choice\n");
 }
 }
 }
+
+
+
+
+OUTPUT:
+-----------------MENU----------------------
+1 Create a SLL of n Employees
+2 - Display from beginning
+3 - Insert at end
+4 - delete at end
+5 - Insert at beg
+6 - delete at beg
+7 - exit
+-------------------------------------------
+Enter choice : 1
+Enter no of students : 1
+Enter USN, NAME, BRANCH, SEMESTER, PHNUM of student : 01 anu cs 3 123456789
+Enter choice : 2
+Linked list elements from begining :
+USN NAME BRANCH SEMESTER PH.NUM
+01 anu cs 3 123456789
+No of students = 1
+Enter choice : 3
+Enter USN, NAME, BRANCH, SEMESTER, PHNUM of student : 02 bhavana cse 3 123456789
+Enter choice : 2
+Linked list elements from begining :
+USN NAME BRANCH SEMESTER PH.NUM
+01 anu cs 3 123456789
+02 bhavana cse 3 123456789
+No of students = 2
+Enter choice : 5
+Enter USN, NAME, BRANCH, SEMESTER, PHNUM of student : 03 chandana cs 3 123456789
+Enter choice : 2
+Linked list elements from begining :
+USN NAME BRANCH SEMESTER PH.NUM
+03 chandana cs 3 123456789
+01 anu cs 3 123456789
+02 bhavana cse 3 123456789
+No of students = 3
+Enter choice : 4
+02 bhavana cse 3 123456789
+Enter choice : 2
+Linked list elements from begining :
+USN NAME BRANCH SEMESTER PH.NUM
+03 chandana cs 3 123456789
+01 anu cs 3 123456789
+No of students = 2
+Enter choice : 6
+03 chandana cs 3 123456789
+Enter choice : 2
+Linked list elements from begining :
+USN NAME BRANCH SEMESTER PH.NUM
+01 anu cs 3 123456789
+No of students = 1
+Enter choice : 7
